@@ -1,35 +1,31 @@
 {
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "Pitch Black",
-  "workbench.startupEditor": "none",
-  "workbench.statusBar.visible": true,
-  //"workbench.activityBar.location": "hidden",
-  // "workbench.editor.showTabs": "none",
   "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Pitch Black",
 
   // change value to show tabs
+  // "workbench.editor.showTabs": "none",
+  // "workbench.iconTheme": "vscode-icons",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.overviewRulerBorder": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.guides.indentation": false,
   "indenticator.width": 0.1,
   "indenticator.color.dark": "rgba(255,255,255,0.1)",
   "files.autoSave": "afterDelay",
 
+  // Git Settings
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.ignoreRebaseWarning": true,
+
   // Editor Formatting Settings
-  "editor.accessibilitySupport": "off",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.snippetSuggestions": "top",
-  "editor.matchBrackets": "never",
-  "editor.largeFileOptimizations": false,
-  "editor.glyphMargin": false,
-  "editor.minimap.enabled": false,
-  "editor.scrollbar.vertical": "hidden",
-  "editor.overviewRulerBorder": false,
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.guides.indentation": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -40,18 +36,9 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
   // "emmet.triggerExpansionOnTab": true,
   "emmet.showSuggestionsAsSnippets": true,
+  "editor.snippetSuggestions": "top",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "razor": "html",
@@ -72,9 +59,8 @@
   "liveServer.settings.CustomBrowser": "chrome",
   "liveServer.settings.donotVerifyTags": true,
 
-  // Import Updates on File Move Settings
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  // Accessibility Settings
+  "editor.accessibilitySupport": "off",
 
   // Explorer Settings
   "explorer.confirmDelete": false,
@@ -87,15 +73,24 @@
     "markdown": true,
     "scminput": false
   },
+  // Import Updates on File Move Settings
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
 
-  // Git Settings
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
-  "git.autofetch": true,
-  "git.ignoreRebaseWarning": true,
-  "git.ignoreMissingGitWarning": true,
-  "git.allowForcePush": true,
-  "git.openRepositoryInParentFolders": "never",
+  "editor.matchBrackets": "never",
+  "breadcrumbs.enabled": false,
+  "editor.glyphMargin": false, // hide red dot
+  "workbench.statusBar.visible": true,
+  "redhat.telemetry.enabled": true,
+  // "workbench.activityBar.location": "hidden",
 
-  "breadcrumbs.enabled": false
+  // Code Actions on Save Settings
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.bracketPairColorization.enabled": false,
+  "editor.folding": false,
+  "editor.foldingImportsByDefault": true,
+  "editor.foldingStrategy": "auto",
+  "editor.stickyScroll.enabled": false
 }
