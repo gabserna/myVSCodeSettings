@@ -91,5 +91,6 @@
   "editor.folding": true,
   "editor.foldingImportsByDefault": false,
   "editor.foldingStrategy": "auto",
-  "editor.stickyScroll.enabled": false
+  "editor.stickyScroll.enabled": false,
+  "editor.wordWrap": "on"
 }
