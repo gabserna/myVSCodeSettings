@@ -1,9 +1,7 @@
 {
-  "window.zoomLevel": 1,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "workbench.colorTheme": "Pitch Black",
 
   // change value to show tabs
   // "workbench.editor.showTabs": "none",
@@ -24,7 +22,7 @@
 
   // Editor Formatting Settings
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -35,6 +33,10 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   // "emmet.triggerExpansionOnTab": true,
   "emmet.showSuggestionsAsSnippets": true,
   "editor.snippetSuggestions": "top",
@@ -89,8 +91,14 @@
   },
   "editor.bracketPairColorization.enabled": true,
   "editor.folding": true,
-  "editor.foldingImportsByDefault": false,
+  "editor.foldingImportsByDefault": true,
   "editor.foldingStrategy": "auto",
   "editor.stickyScroll.enabled": false,
-  "editor.wordWrap": "on"
+  "workbench.startupEditor": "none",
+  "diffEditor.maxComputationTime": 0,
+  "window.zoomLevel": 1,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "Pitch Black",
+  "editor.wordWrap": "on",
+  "extensions.autoUpdate": "onlyEnabledExtensions"
 }
