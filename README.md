@@ -3,15 +3,26 @@
 [![Issues](https://img.shields.io/badge/Issues-red?style=for-the-badge)](#)
 [![Contact](https://img.shields.io/badge/Contact-green?style=for-the-badge)](#)
 
+# hey
+
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/Home-000?style=for-the-badge"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Docs-blue?style=for-the-badge"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Issues-red?style=for-the-badge"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Contact-green?style=for-the-badge"></a>
+</p>
+
 # myVSCodeSettings
 VSCode Settings
 
+<!--
 <p align="center">
   <a href="#">Home</a> |
   <a href="#">Docs</a> |
   <a href="#">Issues</a> |
   <a href="#">Contact</a>
 </p>
+-->
 
 
 ## to install in linux use:
