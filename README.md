@@ -6,6 +6,14 @@
 # myVSCodeSettings
 VSCode Settings
 
+<p align="center">
+  <a href="#">Home</a> |
+  <a href="#">Docs</a> |
+  <a href="#">Issues</a> |
+  <a href="#">Contact</a>
+</p>
+
+
 ## to install in linux use:
 
 ```
