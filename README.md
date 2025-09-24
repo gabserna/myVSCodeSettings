@@ -1,10 +1,3 @@
-[![Home](https://img.shields.io/badge/Home-000?style=for-the-badge)](#)
-[![Docs](https://img.shields.io/badge/Docs-blue?style=for-the-badge)](#)
-[![Issues](https://img.shields.io/badge/Issues-red?style=for-the-badge)](#)
-[![Contact](https://img.shields.io/badge/Contact-green?style=for-the-badge)](#)
-
-# hey
-
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Home-000?style=for-the-badge"></a>
   <a href="#"><img src="https://img.shields.io/badge/Docs-blue?style=for-the-badge"></a>
@@ -24,11 +17,13 @@ VSCode Settings
 </p>
 -->
 
+## to show your extensions list
+```code --list-extensions```
 
-## to install in linux use:
 
+## to install use:
 ```
-code --list-extensions
+code --install-extension
 
 arturock.gitstash
 dbaeumer.vscode-eslint
