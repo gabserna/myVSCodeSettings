@@ -1,8 +1,9 @@
 # myVSCodeSettings
 VSCode Settings
 
-`to install in linux use:`
+## to install in linux use:
 
+```
 code --list-extensions
 
 arturock.gitstash
@@ -24,3 +25,4 @@ sirtori.indenticator
 viktorqvarfordt.vscode-pitch-black-theme
 vue.volar
 yzhang.markdown-all-in-one
+```
