@@ -1,3 +1,8 @@
+[![Home](https://img.shields.io/badge/Home-000?style=for-the-badge)](#)
+[![Docs](https://img.shields.io/badge/Docs-blue?style=for-the-badge)](#)
+[![Issues](https://img.shields.io/badge/Issues-red?style=for-the-badge)](#)
+[![Contact](https://img.shields.io/badge/Contact-green?style=for-the-badge)](#)
+
 # myVSCodeSettings
 VSCode Settings
 
