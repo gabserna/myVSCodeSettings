@@ -45,3 +45,24 @@ viktorqvarfordt.vscode-pitch-black-theme
 vue.volar
 yzhang.markdown-all-in-one
 ```
+
+## to install from terminal use:
+```
+code --install-extension arturock.gitstash \
+&& code --install-extension dbaeumer.vscode-eslint \
+&& code --install-extension dsznajder.es7-react-js-snippets \
+&& code --install-extension eamodio.gitlens \
+&& code --install-extension esbenp.prettier-vscode \
+&& code --install-extension hollowtree.vue-snippets \
+&& code --install-extension kamikillerto.vscode-colorize \
+&& code --install-extension kisstkondoros.vscode-gutter-preview \
+&& code --install-extension ms-vscode.powershell \
+&& code --install-extension octref.vetur \
+&& code --install-extension ritwickdey.liveserver \
+&& code --install-extension sdras.vue-vscode-snippets \
+&& code --install-extension seyyedkhandon.firacode \
+&& code --install-extension sirtori.indenticator \
+&& code --install-extension viktorqvarfordt.vscode-pitch-black-theme \
+&& code --install-extension vue.volar \
+&& code --install-extension yzhang.markdown-all-in-one
+```
