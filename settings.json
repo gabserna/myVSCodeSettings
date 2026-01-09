@@ -1,5 +1,12 @@
 {
   "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.suggest.enabled": true,
+  "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.scrollback": 10000,
+  
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
 
@@ -102,3 +109,4 @@
   "editor.wordWrap": "on",
   "extensions.autoUpdate": "onlyEnabledExtensions"
 }
+
